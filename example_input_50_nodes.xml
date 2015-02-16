@@ -1,0 +1,200 @@
+<?xml version="1.0" ?>
+<schematics>
+  <net id="1"/>
+  <net id="2"/>
+  <net id="3"/>
+  <net id="4"/>
+  <net id="5"/>
+  <net id="6"/>
+  <net id="7"/>
+  <net id="8"/>
+  <net description="analog in 2" id="9"/>
+  <net id="10"/>
+  <net id="11"/>
+  <net id="12"/>
+  <net id="13"/>
+  <net description="analog in 1" id="14"/>
+  <net description="analog in 3" id="15"/>
+  <net id="16"/>
+  <net id="17"/>
+  <net id="18"/>
+  <net id="19"/>
+  <net id="20"/>
+  <net id="21"/>
+  <net id="22"/>
+  <net id="23"/>
+  <net id="24"/>
+  <net id="25"/>
+  <net id="26"/>
+  <net id="27"/>
+  <net id="28"/>
+  <net description="Vcc" id="29"/>
+  <net id="30"/>
+  <net id="31"/>
+  <net description="analog out 3" id="32"/>
+  <net id="33"/>
+  <net id="34"/>
+  <net id="35"/>
+  <net id="36"/>
+  <net id="37"/>
+  <net id="38"/>
+  <net description="analog out 1" id="39"/>
+  <net id="40"/>
+  <net id="41"/>
+  <net id="42"/>
+  <net id="43"/>
+  <net description="analog in 4" id="44"/>
+  <net id="45"/>
+  <net id="46"/>
+  <net description="analog out 2" id="47"/>
+  <net description="analog out 4" id="48"/>
+  <net description="GND" id="49"/>
+  <net id="50"/>
+  <capactor net_from="17" net_to="36" resistance="8391985283.868"/>
+  <resistor net_from="17" net_to="19" resistance="12000000.000"/>
+  <resistor net_from="17" net_to="3" resistance="15000000.000"/>
+  <capactor net_from="17" net_to="10" resistance="186996775.390"/>
+  <resistor net_from="17" net_to="27" resistance="10000000.000"/>
+  <diode net_from="17" net_to="9" resistance="288.863" reverse_resistance="16651826.347"/>
+  <capactor net_from="17" net_to="46" resistance="8651959168.986"/>
+  <capactor net_from="17" net_to="5" resistance="4057690189.734"/>
+  <capactor net_from="17" net_to="40" resistance="1553450088.430"/>
+  <resistor net_from="17" net_to="28" resistance="12000000.000"/>
+  <resistor net_from="17" net_to="41" resistance="10000000.000"/>
+  <diode net_from="17" net_to="6" resistance="296.769" reverse_resistance="13562878.819"/>
+  <capactor net_from="17" net_to="35" resistance="5726057219.858"/>
+  <capactor net_from="17" net_to="21" resistance="6123588270.997"/>
+  <diode net_from="17" net_to="16" resistance="286.503" reverse_resistance="18671486.010"/>
+  <resistor net_from="17" net_to="1" resistance="10000000.000"/>
+  <capactor net_from="17" net_to="44" resistance="7062546103.452"/>
+  <capactor net_from="17" net_to="45" resistance="543417503.052"/>
+  <resistor net_from="17" net_to="4" resistance="15000000.000"/>
+  <capactor net_from="17" net_to="43" resistance="1529647116.684"/>
+  <capactor net_from="17" net_to="24" resistance="8522950993.213"/>
+  <capactor net_from="17" net_to="7" resistance="8282242392.748"/>
+  <diode net_from="17" net_to="14" resistance="272.588" reverse_resistance="14306510.058"/>
+  <capactor net_from="17" net_to="13" resistance="9426989007.752"/>
+  <resistor net_from="17" net_to="31" resistance="12000000.000"/>
+  <resistor net_from="17" net_to="32" resistance="15000000.000"/>
+  <diode net_from="17" net_to="8" resistance="272.354" reverse_resistance="19736191.412"/>
+  <capactor net_from="17" net_to="23" resistance="8349440702.652"/>
+  <capactor net_from="17" net_to="37" resistance="9936519788.463"/>
+  <resistor net_from="17" net_to="30" resistance="12000000.000"/>
+  <capactor net_from="17" net_to="26" resistance="8026517934.761"/>
+  <resistor net_from="17" net_to="15" resistance="15000000.000"/>
+  <diode net_from="17" net_to="50" resistance="278.446" reverse_resistance="6838912.002"/>
+  <diode net_from="17" net_to="11" resistance="297.542" reverse_resistance="9652209.722"/>
+  <capactor net_from="17" net_to="25" resistance="1886698221.182"/>
+  <resistor net_from="17" net_to="34" resistance="10000000.000"/>
+  <capactor net_from="17" net_to="18" resistance="6278948509.292"/>
+  <capactor net_from="17" net_to="20" resistance="1819765121.682"/>
+  <resistor net_from="17" net_to="47" resistance="12000000.000"/>
+  <capactor net_from="17" net_to="2" resistance="8714123672.877"/>
+  <resistor net_from="17" net_to="12" resistance="10000000.000"/>
+  <resistor net_from="17" net_to="22" resistance="12000000.000"/>
+  <capactor net_from="17" net_to="38" resistance="9316104009.196"/>
+  <capactor net_from="17" net_to="48" resistance="4561085722.301"/>
+  <resistor net_from="17" net_to="42" resistance="100000000.000"/>
+  <resistor net_from="17" net_to="29" resistance="12000000.000"/>
+  <resistor net_from="17" net_to="49" resistance="12000000.000"/>
+  <capactor net_from="17" net_to="39" resistance="7448526221.044"/>
+  <resistor net_from="17" net_to="33" resistance="100000000.000"/>
+  <capactor net_from="34" net_to="9" resistance="9627478211.541"/>
+  <resistor net_from="34" net_to="32" resistance="15000000.000"/>
+  <capactor net_from="34" net_to="29" resistance="9294202365.149"/>
+  <diode net_from="34" net_to="30" resistance="284.978" reverse_resistance="5199498.222"/>
+  <resistor net_from="34" net_to="45" resistance="15000000.000"/>
+  <resistor net_from="34" net_to="49" resistance="15000000.000"/>
+  <capactor net_from="34" net_to="40" resistance="7586293476.196"/>
+  <resistor net_from="34" net_to="31" resistance="100000000.000"/>
+  <diode net_from="34" net_to="5" resistance="292.122" reverse_resistance="5471437.267"/>
+  <resistor net_from="34" net_to="50" resistance="12000000.000"/>
+  <resistor net_from="34" net_to="47" resistance="12000000.000"/>
+  <resistor net_from="34" net_to="10" resistance="10000000.000"/>
+  <diode net_from="34" net_to="3" resistance="293.282" reverse_resistance="4501758.748"/>
+  <resistor net_from="34" net_to="15" resistance="12000000.000"/>
+  <capactor net_from="34" net_to="46" resistance="9631492027.290"/>
+  <diode net_from="34" net_to="1" resistance="280.996" reverse_resistance="3375002.120"/>
+  <resistor net_from="34" net_to="24" resistance="10000000.000"/>
+  <capactor net_from="34" net_to="42" resistance="2088661848.975"/>
+  <capactor net_from="34" net_to="43" resistance="6764138515.184"/>
+  <resistor net_from="34" net_to="17" resistance="12000000.000"/>
+  <resistor net_from="34" net_to="28" resistance="100000000.000"/>
+  <capactor net_from="34" net_to="19" resistance="4018356476.627"/>
+  <capactor net_from="34" net_to="36" resistance="7461703831.414"/>
+  <capactor net_from="34" net_to="27" resistance="1513421252.521"/>
+  <resistor net_from="34" net_to="33" resistance="100000000.000"/>
+  <resistor net_from="34" net_to="2" resistance="10000000.000"/>
+  <resistor net_from="34" net_to="26" resistance="100000000.000"/>
+  <capactor net_from="34" net_to="16" resistance="8812974791.123"/>
+  <resistor net_from="34" net_to="25" resistance="12000000.000"/>
+  <resistor net_from="34" net_to="39" resistance="100000000.000"/>
+  <resistor net_from="34" net_to="48" resistance="10000000.000"/>
+  <resistor net_from="34" net_to="21" resistance="100000000.000"/>
+  <resistor net_from="34" net_to="20" resistance="15000000.000"/>
+  <resistor net_from="34" net_to="11" resistance="15000000.000"/>
+  <capactor net_from="34" net_to="4" resistance="5119783908.976"/>
+  <resistor net_from="34" net_to="35" resistance="15000000.000"/>
+  <capactor net_from="34" net_to="44" resistance="1025444417.589"/>
+  <capactor net_from="34" net_to="7" resistance="5395430127.747"/>
+  <capactor net_from="34" net_to="14" resistance="184488740.226"/>
+  <diode net_from="34" net_to="18" resistance="253.947" reverse_resistance="3204267.180"/>
+  <capactor net_from="34" net_to="13" resistance="2317249206.937"/>
+  <capactor net_from="34" net_to="12" resistance="5916584967.423"/>
+  <resistor net_from="34" net_to="6" resistance="15000000.000"/>
+  <resistor net_from="34" net_to="37" resistance="100000000.000"/>
+  <resistor net_from="34" net_to="8" resistance="12000000.000"/>
+  <resistor net_from="34" net_to="41" resistance="100000000.000"/>
+  <resistor net_from="34" net_to="38" resistance="15000000.000"/>
+  <capactor net_from="34" net_to="23" resistance="7166297253.886"/>
+  <capactor net_from="34" net_to="22" resistance="2963839727.382"/>
+  <capactor net_from="47" net_to="29" resistance="4791624564.320"/>
+  <resistor net_from="47" net_to="40" resistance="100000000.000"/>
+  <resistor net_from="47" net_to="49" resistance="12000000.000"/>
+  <resistor net_from="47" net_to="17" resistance="10000000.000"/>
+  <resistor net_from="47" net_to="23" resistance="15000000.000"/>
+  <capactor net_from="47" net_to="38" resistance="6540961694.563"/>
+  <capactor net_from="47" net_to="7" resistance="2872421123.272"/>
+  <capactor net_from="47" net_to="4" resistance="3930184187.792"/>
+  <resistor net_from="47" net_to="19" resistance="15000000.000"/>
+  <resistor net_from="47" net_to="12" resistance="100000000.000"/>
+  <capactor net_from="47" net_to="10" resistance="1114072031.245"/>
+  <capactor net_from="47" net_to="8" resistance="2220389370.000"/>
+  <capactor net_from="47" net_to="16" resistance="1760320246.949"/>
+  <resistor net_from="47" net_to="14" resistance="100000000.000"/>
+  <capactor net_from="47" net_to="20" resistance="6729747346.626"/>
+  <capactor net_from="47" net_to="41" resistance="2123241380.117"/>
+  <diode net_from="47" net_to="37" resistance="281.451" reverse_resistance="8056297.091"/>
+  <resistor net_from="47" net_to="28" resistance="100000000.000"/>
+  <capactor net_from="47" net_to="6" resistance="6916707137.045"/>
+  <resistor net_from="47" net_to="13" resistance="100000000.000"/>
+  <resistor net_from="47" net_to="45" resistance="15000000.000"/>
+  <diode net_from="47" net_to="32" resistance="252.968" reverse_resistance="8462918.012"/>
+  <resistor net_from="47" net_to="33" resistance="10000000.000"/>
+  <resistor net_from="47" net_to="30" resistance="10000000.000"/>
+  <capactor net_from="47" net_to="42" resistance="8571462342.135"/>
+  <diode net_from="47" net_to="43" resistance="274.467" reverse_resistance="15967785.256"/>
+  <resistor net_from="47" net_to="36" resistance="100000000.000"/>
+  <resistor net_from="47" net_to="31" resistance="15000000.000"/>
+  <capactor net_from="47" net_to="46" resistance="688737702.177"/>
+  <resistor net_from="47" net_to="5" resistance="100000000.000"/>
+  <diode net_from="47" net_to="11" resistance="282.405" reverse_resistance="2936652.519"/>
+  <resistor net_from="47" net_to="21" resistance="100000000.000"/>
+  <resistor net_from="47" net_to="24" resistance="10000000.000"/>
+  <resistor net_from="47" net_to="48" resistance="12000000.000"/>
+  <diode net_from="47" net_to="34" resistance="253.508" reverse_resistance="4950994.193"/>
+  <capactor net_from="47" net_to="35" resistance="2032495091.274"/>
+  <resistor net_from="47" net_to="1" resistance="100000000.000"/>
+  <diode net_from="47" net_to="22" resistance="288.279" reverse_resistance="17351391.224"/>
+  <resistor net_from="47" net_to="39" resistance="12000000.000"/>
+  <resistor net_from="47" net_to="9" resistance="12000000.000"/>
+  <diode net_from="47" net_to="44" resistance="287.992" reverse_resistance="16157188.027"/>
+  <capactor net_from="47" net_to="25" resistance="7161977293.318"/>
+  <capactor net_from="47" net_to="2" resistance="7156088961.216"/>
+  <resistor net_from="47" net_to="3" resistance="100000000.000"/>
+  <capactor net_from="47" net_to="18" resistance="4992441951.325"/>
+  <resistor net_from="47" net_to="50" resistance="15000000.000"/>
+  <resistor net_from="47" net_to="27" resistance="12000000.000"/>
+  <resistor net_from="47" net_to="26" resistance="100000000.000"/>
+  <resistor net_from="47" net_to="15" resistance="12000000.000"/>
+</schematics>
