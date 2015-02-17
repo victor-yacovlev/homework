@@ -10,6 +10,9 @@ def getdata(path):
     for child in data:
         if (child.tag == 'net'):
             nets += 1
+        #                                   BUG HERE ──────┐
+        #                                                  │
+        #                                                  │
         elif (child.tag == 'resistor' or child.tag == 'capator'):
             threads.append({'net_to':int(child.attrib['net_to']) - 1,
                             'net_from':int(child.attrib['net_from']) - 1,
@@ -48,6 +51,11 @@ def Uorsh(data):
                 d[i][j] = divis(1,(divis(1,d[i][j]) + divis(1,(d[i][k] + d[k][j]))))
     for i in range(N):
             for j in range(N):
+                # Still a bug here. 
+                # str(round()) is not the same as ".6f" formatted print 
+                # Example: 
+                #          19.5822 is a result of str(round()), but
+                #          expected 19.582200
                 d[i][j] = str(round(d[i][j],6))
     return(d)
 
