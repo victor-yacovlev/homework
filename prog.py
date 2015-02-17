@@ -48,6 +48,8 @@ def Uorsh(data):
                 d[i][j] = divis(1,(divis(1,d[i][j]) + divis(1,(d[i][k] + d[k][j]))))
     for i in range(N):
             for j in range(N):
+                # Bug is here!
+                # Should not round while calculations
                 d[i][j] = str(round(d[i][j],6))
     return(d)
 
